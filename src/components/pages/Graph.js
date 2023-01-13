@@ -3,7 +3,7 @@ import src from "../images/menu.svg";
 
 const Graph = () => {
   return (
-    <div className="gap-4 flex flex-col">
+    <div className="w-[72%] grid flex-wrap lg:grid-cols-5 md:grid-cols-3 justify-around  min-w-full my-4 sm:grid-cols-3 gap-y-4 max-[640px]:grid-cols-2 max-[426px]:grid-cols-1 max-[426px]:content-center">
       <div className="border-2 border-gray-200 w-[200px] gap-4">
         <div className="flex items-center justify-center  p-4 pr-8 ">
           <div className="border-b-2 border-gray-500 flex py-2">
