@@ -19,7 +19,7 @@ const Side = () => {
           <MdOutlineMessage className="text-[#fff]" />
         </div>
         <div className="bg-gray-300 h-[30px] w-[30px] items-center flex justify-center rounded-3xl">
-          <AiOutlineFall className="text-[#fff]  rounded-3xl" />
+          <AiOutlineFall className="text-[#fff] p-2 rounded-3xl" />
         </div>
         <div className="bg-gray-300 h-[30px] w-[30px] items-center flex justify-center rounded-3xl">
           <AiOutlineDropbox className="text-[#fff]" />

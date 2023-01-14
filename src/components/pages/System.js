@@ -9,7 +9,7 @@ const Card = () => {
     <Fragment>
       <section className="">
         <div>
-          <div className="grid flex-wrap lg:grid-cols-4 md:grid-cols-3 justify-around  min-w-full my-4 sm:grid-cols-3 gap-y-4 max-[640px]:grid-cols-2 max-[426px]:grid-cols-1 max-[426px]:content-center">
+          <div className="grid flex-wrap lg:grid-cols-4 md:grid-cols-3 justify-around  min-w-full my-4 sm:grid-cols-3 gap-y-4 max-[640px]:grid-cols-2 max-[426px]:grid-cols-1 max-[426px]:content-center gap-[30px]">
             <div className="flex justify-between items-center flex-col bg-gray-100 shadow-lg  rounded-md w-[150px] max-sm:contents">
               <div className="mix-blend-multiply">
                 <img src={img1} alt="" className="bg-gray-200" />
