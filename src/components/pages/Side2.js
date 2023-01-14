@@ -10,14 +10,14 @@ import { AiOutlineWifi, AiOutlineSearch } from "react-icons/ai";
 
 const Side2 = () => {
   return (
-      <div className='w-[73%] max-md:hidden'>
+      <div className='w-full max-md:hidden'>
       
-      <div className="flex items-center justify-between border-b-2 py-2 px-4">
+      <div className="flex items-center justify-between border-b-2 py-2 px-4 text-[10px]">
         <div className="flex gap-2 items-center">
           <SlPlane />
           <p>select All</p>
         </div>
-        <div className="flex gap-2 items-center">
+        <div className="flex gap-2 items-center pb-1">
           <div className="flex items-center  border border-gray-300 gap-2 p-1">
             <AiOutlineWifi />
             <p>filtres</p>

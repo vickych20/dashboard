@@ -7,8 +7,8 @@ import { AiOutlineDropbox, AiOutlineFall } from "react-icons/ai";
 
 const Side = () => {
   return (
-    <div className="flex flex-col justify-between h-[80vh] max-md:hidden">
-      <div className="flex flex-col gap-y-3">
+    <div className="flex flex-col justify-between h-[37vh] py-8 max-md:hidden">
+      <div className="flex flex-col gap-y-8">
         <div className="bg-gray-300 h-[30px] w-[30px] items-center flex justify-center rounded-3xl">
           <GiIronCross className="text-[#fff] rounded-3xl" />
         </div>

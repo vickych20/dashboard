@@ -11,21 +11,25 @@ import Graph from "./pages/Graph";
 const Base = () => {
   return (
     <div className="flex">
-      <div className="px-4 shadow py-8 w-[100px] ">
+      <div className="px-4   w-[80px] m-1 ">
         <Side />
       </div>
-      <div className="py-8 w-full">
-              <Side1 />
+      <div className=""></div>
+      <div className="py-4 w-[72%] max-md:items-center ">
+        <Side1 />
         <Side2 />
-        <Card />
-        <Picard />
-        <System />
-        
-        <div className="">
-          <Graph/>
+        <div className="py-4 px-8 max-sm:contents">
+          <Card />
         </div>
-        
-      
+        <div className="py-4 px-8 max-sm:contents">
+          <System />
+        </div>
+        <div className="py-4 px-8 max-sm:contents">
+          <Picard />
+        </div>
+      </div>
+      <div className="shrink-0 grow-0">
+        <Graph />
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ const Header = () => {
         <p className="font-bold">constructor</p>
       </div>
       <div>
-        <ul className="max-xl:hidden flex items-center justify-center gap-4 text-[13px] max-md:hidden">
+        <ul className="max-xl: flex items-center justify-center gap-4 text-[13px] max-md:hidden">
           <li>
             <a href="#">Dashboard</a>
           </li>
@@ -36,13 +36,17 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div className="bg-gray-200 px-[10px] py-2 rounded-2xl flex items-center gap-4 max-md:hidden">
-        <AiOutlineSearch />
-        <input
-          type="text"
-          placeholder="seacrh transation..."
-          className="outline-none border-none bg-transparent"
-        />
+      <div className="flex items-center justify-center bg-gray-200 py-2 rounded-2xl text-center px-4 gap-5 max-sm:hidden max-lg:hidden">
+        <div>
+          <AiOutlineSearch className="" />
+        </div>
+        <div>
+          <input
+            type="text"
+            placeholder="seacrh transation..."
+            className="outline-none border-none bg-transparent flex items-center justify-center gap-4"
+          />
+        </div>
       </div>
       <div className="flex items-center justify-center gap-4 text-white-800">
         <div className="bg-gray-300 h-[30px] w-[30px] items-center flex justify-center rounded-3xl">
