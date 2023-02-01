@@ -1,7 +1,15 @@
 .cate{
-    background-color: rgb(246, 245, 245);
-   flex-wrap: wrap;
-   width: 20%;
+    background-color: #f8f7f7;
+   
+   width: 30%;
+   padding: 20px;
+   height: 100%;
+   
+}
+.right{
+    background-color: rgb(255, 255, 255);
+   
+   width: 90%;
 
    
 }

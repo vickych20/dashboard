@@ -1,6 +1,10 @@
 import React from "react";
 import { AiOutlineRight, AiFillStar } from "react-icons/ai";
 import "./about.css";
+import { RiArrowRightUpFill } from "react-icons/ri";
+import { MdOutlineDashboardCustomize } from "react-icons/md";
+import { HiMenu } from "react-icons/hi";
+import Mcard from "./pages/Mcard";
 
 const About = () => {
   return (
@@ -22,10 +26,10 @@ const About = () => {
           <p>Summer Clothing</p>
         </div>
       </div>
-      <div>
-        <div className="cate">
+      <div className="flex gap-4 items-start">
+        <div className="cate shadow-md">
           <div className="flex justify-between items-center">
-            <h1>category</h1>
+            <h1 className="font-bold text-[18px]">Category</h1>
 
             <AiOutlineRight />
           </div>
@@ -36,7 +40,7 @@ const About = () => {
           <p>See all</p>
           <div>
             <div className="flex justify-between items-center">
-              <h1>Brands</h1>
+              <h1 className="font-bold text-[18px]">Brands</h1>
 
               <AiOutlineRight />
             </div>
@@ -74,7 +78,7 @@ const About = () => {
           </div>
           <div>
             <div className="flex justify-between items-center">
-              <h1>Features</h1>
+              <h1 className="font-bold text-[18px]">Features</h1>
 
               <AiOutlineRight />
             </div>
@@ -113,7 +117,7 @@ const About = () => {
           <div>
             <div>
               <div className="flex justify-between items-center">
-                <p>price range</p>
+                <p className="font-bold text-[18px]">price range</p>
                 <AiOutlineRight />
               </div>
               <input type="range" name="" id="" />
@@ -137,7 +141,7 @@ const About = () => {
             </div>
             <div>
               <div className="flex justify-between items-center">
-                <h1>Features</h1>
+                <h1 className="font-bold text-[18px]">Features</h1>
 
                 <AiOutlineRight />
               </div>
@@ -175,7 +179,7 @@ const About = () => {
             </div>
             <div>
               <div className="flex justify-between items-center">
-                <h1>Ratings</h1>
+                <h1 className="font-bold text-[18px]">Ratings</h1>
 
                 <AiOutlineRight />
               </div>
@@ -243,7 +247,36 @@ const About = () => {
             </div>
           </div>
         </div>
+        <div className="right">
+          <div className="flex justify-between items-center border-[1px] border-gray-300 p-2">
+            <div>
+              <h1>
+                12,911 items in{" "}
+                <span className="font-bold text-[15px]">mobile accessory</span>
+              </h1>
+            </div>
+            <div className="flex justify-center items-center gap-8 mr-[2rem]">
+              <RiArrowRightUpFill />
+              <p>verified only</p>
+              <div className="flex items-center border-[1px] border-gray-300 w-[100px] justify-between">
+                <div>
+                  <h1>Features</h1>
+                </div>
+                <div>
+                  <AiOutlineRight />
+                </div>
+              </div>
+              <div className="flex items-center gap-4">
+                <MdOutlineDashboardCustomize />
+                <HiMenu />
+              </div>
+            </div>
+            
+                  </div>
+                  <Mcard/>
+        </div>
       </div>
+      <div></div>
     </div>
   );
 };
