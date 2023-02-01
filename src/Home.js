@@ -15,7 +15,7 @@ import Footer from "./components/footer/Footer";
 const Home = () => {
   return (
     <div className="overflow-x-hidden select-none">
-      <Navbar />
+      
       <Automobile />
       <Deals />
       <Homeoutdoor />
