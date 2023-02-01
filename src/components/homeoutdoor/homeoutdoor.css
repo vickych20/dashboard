@@ -1,0 +1,13 @@
+.home{
+    background-image: url("../Assets/h0.webp");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+.pra p{
+    color:#51565e;
+    font-size: 14px;
+}
+span{
+    font-size: 10px;
+}

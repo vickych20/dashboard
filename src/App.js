@@ -1,15 +1,26 @@
 import React from "react";
-import Header from "./components/Header";
-import Base from "./components/Base";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/navbar/Navbar";
+
+import "./app.css";
+import Home from "./Home";
+import About from "./components/About";
 
 const App = () => {
   return (
-    <div className="overflow-x-hidden">
-      <div className="px-4 shadow-md">
-        <Header />
-      </div>
-      <Base />
-    </div>
+    <>
+      <Router>
+        
+
+        <Navbar />
+
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/about" element={<About/>} />
+       
+        </Routes>
+      </Router>
+    </>
   );
 };
 
