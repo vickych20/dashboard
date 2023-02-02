@@ -276,7 +276,7 @@ const About = () => {
                   <Mcard/>
         </div>
       </div>
-      <div></div>
+     
     </div>
   );
 };

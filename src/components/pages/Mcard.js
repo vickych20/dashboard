@@ -11,7 +11,7 @@ import { AiFillStar } from "react-icons/ai";
 const Mcard = () => {
     return (
       <div>
-        <div className="flex items-center gap-2 shadow border-[1px] border-gray-400 p-[20px] py-4 mt-4">
+        <div className="flex items-center gap-8 shadow border-[1px] border-gray-400 p-[20px] py-4 mt-4">
           <div className="w-[180px]">
             <img src={img1} alt="" className="w-full" />
           </div>
@@ -41,9 +41,9 @@ const Mcard = () => {
             <p className="text-[#4942d4]">View details</p>
           </div>
         </div>
-        <div className="flex items-center gap-2 shadow border-[1px] border-gray-400 p-[20px] py-4 mt-4">
+        <div className="flex items-center gap-8 shadow border-[1px] border-gray-400 p-[20px] py-4 mt-4 ">
           <div className="w-[180px]">
-            <img src={img2} alt="" className="w-full" />
+            <img src={img2} alt="" className="" />
           </div>
           <div>
             <div className="flex justify-between leading-3">
@@ -71,7 +71,7 @@ const Mcard = () => {
             <p className="text-[#4942d4]">View details</p>
           </div>
         </div>
-        <div className="flex items-center gap-2 shadow border-[1px] border-gray-400 p-[20px] py-4 mt-4">
+        <div className="flex items-center gap-8 shadow border-[1px] border-gray-400 p-[20px] py-4 mt-4">
           <div className="w-[180px]">
             <img src={img3} alt="" className="w-full" />
           </div>
@@ -101,7 +101,7 @@ const Mcard = () => {
             <p className="text-[#4942d4]">View details</p>
           </div>
         </div>
-        <div className="flex items-center gap-2 shadow border-[1px] border-gray-400 p-[20px] py-4 mt-4">
+        <div className="flex items-center gap-8 shadow border-[1px] border-gray-400 p-[20px] py-4 mt-4">
           <div className="w-[180px]">
             <img src={img5} alt="" className="w-full" />
           </div>
@@ -131,7 +131,7 @@ const Mcard = () => {
             <p className="text-[#4942d4]">View details</p>
           </div>
         </div>
-        <div className="flex items-center gap-2 shadow border-[1px] border-gray-400 p-[20px] py-4 mt-4">
+        <div className="flex items-center gap-8 shadow border-[1px] border-gray-400 p-[20px] py-4 mt-4">
           <div className="w-[180px]">
             <img src={img6} alt="" className="w-full" />
           </div>
@@ -161,7 +161,7 @@ const Mcard = () => {
             <p className="text-[#4942d4]">View details</p>
           </div>
         </div>
-        <div className="flex items-center gap-2 shadow border-[1px] border-gray-400 p-[20px] py-4 mt-4">
+        <div className="flex items-center gap-8 shadow border-[1px] border-gray-400 p-[20px] py-4 mt-4">
           <div className="w-[180px]">
             <img src={img4} alt="" className="w-full" />
           </div>
