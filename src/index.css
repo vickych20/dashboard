@@ -6,7 +6,8 @@
 
 
 body{
-  font-family: 'Source Sans Pro', sans-serif
+  font-family: 'Source Sans Pro', sans-serif;
+  user-select: none;
 }
 .card-container{
   width: 300px;

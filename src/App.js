@@ -9,6 +9,7 @@ import Subscribe from "./components/subscribe/Subscribe";
 import Footer from "./components/footer/Footer";
 import Contact from "./components/Contact";
 import Service from "./components/Service";
+import Llast from "./components/Llast";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/service" element={<Service />} />
+          <Route path="/last" element={<Llast />} />
         </Routes>
         <Subscribe/>
         <Footer/>
