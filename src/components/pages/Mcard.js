@@ -11,13 +11,15 @@ import { AiFillStar } from "react-icons/ai";
 const Mcard = () => {
     return (
       <div>
-        <div className="flex items-center gap-8 shadow border-[1px] border-gray-400 p-[20px] py-4 mt-4">
-          <div className="w-[180px]">
-            <img src={img1} alt="" className="w-full" />
+        <div className="flex items-center shadow border-[1px] border-gray-400 mt-4 gap-8 w-full max-md:w-full cg">
+          <div className="w-[27%] flex flex-wrap clases">
+            <img src={img2} alt="" className="max-w-[50px]" />
           </div>
-          <div>
-            <div className="flex justify-between leading-3">
-              <p className="font-bold">Canon Cmera EOS 2000,Black 10x zoom</p>
+          <div className="flex flex-wrap">
+            <div className="flex justify-between">
+              <p className="font-bold max-md:text-[12px]">
+                Canon Cmera EOS 2000,Black 10x zoom
+              </p>
               <GiEternalLove />
             </div>
             <p>
@@ -33,7 +35,7 @@ const Mcard = () => {
               <span className="text-[14px]">154 ordersd</span>
               <span className="text-[#31d898] text-[16px]">Free Shipping</span>
             </p>
-            <p className="leading-5">
+            <p className="leading-5 max-md:text-[10px]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
@@ -41,13 +43,15 @@ const Mcard = () => {
             <p className="text-[#4942d4]">View details</p>
           </div>
         </div>
-        <div className="flex items-center gap-8 shadow border-[1px] border-gray-400 p-[20px] py-4 mt-4 ">
-          <div className="w-[180px]">
-            <img src={img2} alt="" className="" />
+        <div className="flex items-center shadow border-[1px] border-gray-400 mt-4 gap-8 w-full max-md:w-full cg">
+          <div className="w-[27%] flex flex-wrap clases">
+            <img src={img3} alt="" className="max-w-[50px]" />
           </div>
-          <div>
-            <div className="flex justify-between leading-3">
-              <p className="font-bold">Canon Cmera EOS 2000,Black 10x zoom</p>
+          <div className="flex flex-wrap">
+            <div className="flex justify-between">
+              <p className="font-bold max-md:text-[12px]">
+                Canon Cmera EOS 2000,Black 10x zoom
+              </p>
               <GiEternalLove />
             </div>
             <p>
@@ -63,7 +67,7 @@ const Mcard = () => {
               <span className="text-[14px]">154 ordersd</span>
               <span className="text-[#31d898] text-[16px]">Free Shipping</span>
             </p>
-            <p className="leading-5">
+            <p className="leading-5 max-md:text-[10px]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
@@ -71,13 +75,15 @@ const Mcard = () => {
             <p className="text-[#4942d4]">View details</p>
           </div>
         </div>
-        <div className="flex items-center gap-8 shadow border-[1px] border-gray-400 p-[20px] py-4 mt-4">
-          <div className="w-[180px]">
-            <img src={img3} alt="" className="w-full" />
+        <div className="flex items-center shadow border-[1px] border-gray-400 mt-4 gap-8 w-full max-md:w-full cg">
+          <div className="w-[27%] flex flex-wrap clases">
+            <img src={img4} alt="" className="max-w-[50px]" />
           </div>
-          <div>
-            <div className="flex justify-between leading-3">
-              <p className="font-bold">Canon Cmera EOS 2000,Black 10x zoom</p>
+          <div className="flex flex-wrap">
+            <div className="flex justify-between">
+              <p className="font-bold max-md:text-[12px]">
+                Canon Cmera EOS 2000,Black 10x zoom
+              </p>
               <GiEternalLove />
             </div>
             <p>
@@ -93,7 +99,7 @@ const Mcard = () => {
               <span className="text-[14px]">154 ordersd</span>
               <span className="text-[#31d898] text-[16px]">Free Shipping</span>
             </p>
-            <p className="leading-5">
+            <p className="leading-5 max-md:text-[10px]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
@@ -101,13 +107,15 @@ const Mcard = () => {
             <p className="text-[#4942d4]">View details</p>
           </div>
         </div>
-        <div className="flex items-center gap-8 shadow border-[1px] border-gray-400 p-[20px] py-4 mt-4">
-          <div className="w-[180px]">
-            <img src={img5} alt="" className="w-full" />
+        <div className="flex items-center shadow border-[1px] border-gray-400 mt-4 gap-8 w-full max-md:w-full cg">
+          <div className="w-[27%] flex flex-wrap clases">
+            <img src={img5} alt="" className="max-w-[50px]" />
           </div>
-          <div>
-            <div className="flex justify-between leading-3">
-              <p className="font-bold">Canon Cmera EOS 2000,Black 10x zoom</p>
+          <div className="flex flex-wrap">
+            <div className="flex justify-between">
+              <p className="font-bold max-md:text-[12px]">
+                Canon Cmera EOS 2000,Black 10x zoom
+              </p>
               <GiEternalLove />
             </div>
             <p>
@@ -123,7 +131,7 @@ const Mcard = () => {
               <span className="text-[14px]">154 ordersd</span>
               <span className="text-[#31d898] text-[16px]">Free Shipping</span>
             </p>
-            <p className="leading-5">
+            <p className="leading-5 max-md:text-[10px]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
@@ -131,13 +139,15 @@ const Mcard = () => {
             <p className="text-[#4942d4]">View details</p>
           </div>
         </div>
-        <div className="flex items-center gap-8 shadow border-[1px] border-gray-400 p-[20px] py-4 mt-4">
-          <div className="w-[180px]">
-            <img src={img6} alt="" className="w-full" />
+        <div className="flex items-center shadow border-[1px] border-gray-400 mt-4 gap-8 w-full max-md:w-full cg">
+          <div className="w-[27%] flex flex-wrap clases">
+            <img src={img6} alt="" className="max-w-[50px]" />
           </div>
-          <div>
-            <div className="flex justify-between leading-3">
-              <p className="font-bold">Canon Cmera EOS 2000,Black 10x zoom</p>
+          <div className="flex flex-wrap">
+            <div className="flex justify-between">
+              <p className="font-bold max-md:text-[12px]">
+                Canon Cmera EOS 2000,Black 10x zoom
+              </p>
               <GiEternalLove />
             </div>
             <p>
@@ -153,7 +163,7 @@ const Mcard = () => {
               <span className="text-[14px]">154 ordersd</span>
               <span className="text-[#31d898] text-[16px]">Free Shipping</span>
             </p>
-            <p className="leading-5">
+            <p className="leading-5 max-md:text-[10px]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!
@@ -161,13 +171,15 @@ const Mcard = () => {
             <p className="text-[#4942d4]">View details</p>
           </div>
         </div>
-        <div className="flex items-center gap-8 shadow border-[1px] border-gray-400 p-[20px] py-4 mt-4">
-          <div className="w-[180px]">
-            <img src={img4} alt="" className="w-full" />
+        <div className="flex items-center shadow border-[1px] border-gray-400 mt-4 gap-8 w-full max-md:w-full cg">
+          <div className="w-[27%] flex flex-wrap clases">
+            <img src={img1} alt="" className="max-w-[50px]" />
           </div>
-          <div>
-            <div className="flex justify-between leading-3">
-              <p className="font-bold">Canon Cmera EOS 2000,Black 10x zoom</p>
+          <div className="flex flex-wrap">
+            <div className="flex justify-between">
+              <p className="font-bold max-md:text-[12px]">
+                Canon Cmera EOS 2000,Black 10x zoom
+              </p>
               <GiEternalLove />
             </div>
             <p>
@@ -183,7 +195,7 @@ const Mcard = () => {
               <span className="text-[14px]">154 ordersd</span>
               <span className="text-[#31d898] text-[16px]">Free Shipping</span>
             </p>
-            <p className="leading-5">
+            <p className="leading-5 max-md:text-[10px]">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Voluptates laboriosam ex corporis, nobis voluptatum nesciunt?
               Placeat est atque architecto, numquam a ab rerum!

@@ -1,13 +1,9 @@
-.active:hover{
-    background-color: rgb(240, 240, 255);
-    padding: 4px 9px;
+
+@media only screen and (max-width: 551px) {
+    .small{
+        display: flex;
+        flex-direction: column;
+        
+    }
     
-   
-}
-.item{
- width: 200px;
-}
-.side{
-width: 200px;
-margin:10px;
 }

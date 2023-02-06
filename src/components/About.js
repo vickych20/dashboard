@@ -8,7 +8,7 @@ import Mcard from "./pages/Mcard";
 
 const About = () => {
   return (
-    <div className="mx-[5rem] leading-8">
+    <div className="overflow-x-hidden leading-8">
       <div className="flex items-start justify-start gap-4 text-[#a3a2a2] py-4">
         <div className="flex items-center gap-2">
           <p>Home</p>
@@ -27,7 +27,7 @@ const About = () => {
         </div>
       </div>
       <div className="flex gap-4 items-start">
-        <div className="cate shadow-md">
+        <div className="cate shadow-md max-lg:hidden">
           <div className="flex justify-between items-center">
             <h1 className="font-bold text-[18px]">Category</h1>
 
@@ -247,7 +247,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="right">
+        <div className="right max-md:w-full">
           <div className="flex justify-between items-center border-[1px] border-gray-300 p-2">
             <div>
               <h1>

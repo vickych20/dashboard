@@ -3,8 +3,8 @@ import './easy.css';
 
 const Easy = () => {
   return (
-    <div className="btn flex items-center justify-around">
-      <div>
+    <div className="btn flex items-center justify-center">
+      <div className='w-[40%]'>
         <h1 className="text-[30px] font-bold text-[#fff] px-[10px]">
           An easy way to send request to all suppliers
         </h1>
@@ -13,7 +13,7 @@ const Easy = () => {
           assumenda{" "}
         </p>
       </div>
-      <div className="bg-[#fff] w-[38%] px-[30px]">
+      <div className="bg-[#fff] w-[40%] px-[30px] max-md:hidden">
         <h1 className="text-[20px] font-bold">send quote to suppliers</h1>
         <input
           type=""

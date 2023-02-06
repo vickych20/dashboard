@@ -10,13 +10,13 @@ import { FiMenu } from 'react-icons/fi';
 
 const Navbar = () => {
   return (
-    <div>
-      <div className="flex justify-between items-center mx-[5rem] py-4">
+    <div className="overflow-x-hidden">
+      <div className="flex justify-evenly items-center py-4 md:py-1">
         <div className="flex items-center gap-2">
           <TbBrandGooglePlay className="bg-[#0d99ff] text-[20px] text-[#fff] rounded-full h-[50px] w-[50px]" />
           <h2 className="text-[#469fdf] text-[30px]">Brand</h2>
         </div>
-        <div className="flex items-center gap-2 border-[1px] border-[#0d99ff] rounded-md">
+        <div className="max-md:hidden flex items-center gap-2 border-[1px] border-[#0d99ff] rounded-md">
           <input
             type="search"
             placeholder="Search"
@@ -24,7 +24,7 @@ const Navbar = () => {
           />
           <AiOutlineSearch />
           <div className="w-[1px] h-[30px] bg-[#0d99ff]"></div>
-          <select name="cars" id="cars" className="outline-none">
+          <select name="cars" id="cars" className="outline-none max-md:hidden">
             <option value="all category">All category</option>
             <option value="saab">solution</option>
             <option value="opel">products</option>
@@ -38,11 +38,11 @@ const Navbar = () => {
           <p>
             <IoMdPeople className="text-[23px] text-[#b8c2d3]" /> profile
           </p>
-          <p>
+          <p className="max-md:hidden">
             <BiMessageDetail className="text-[23px] text-[#aeb9c7]" />
             Message
           </p>
-          <p>
+          <p className="max-md:hidden w-full">
             <GiEternalLove className="text-[23px] text-[#a0aec1]" />
             orders
           </p>
@@ -53,7 +53,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="border-t-[1px] border-gray-400 border-b-[1px]">
-        <div className="flex justify-between items-center mx-[5rem] py-4">
+        <div className="flex justify-around items-center py-4 overflow-x-scroll">
           <div className="flex items-center gap-4">
             <FiMenu />
             <p>All category</p>

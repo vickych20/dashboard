@@ -1,29 +1,29 @@
-import React from 'react';
-import './automobile.css';
-import img1 from '../Assets/des0.webp';
-import { IoMdPeople } from 'react-icons/io';
+import React from "react";
+import "./automobile.css";
+import img1 from "../Assets/drt.png";
+import { IoMdPeople } from "react-icons/io";
 
 const Automobile = () => {
   return (
-    <div className="flex items-center mx-[5rem] py-4 shadow-lg">
-      <div className="item">
-        <ul className="flex flex-col gap-[20px] px-4">
-          <li className="active">Automobile</li>
-          <li className="active">Clothes and wear</li>
-          <li className="active">Home interiors</li>
-          <li className="active">Computer and tech</li>
-          <li className="active">Tools,equipments</li>
-          <li className="active">Sports and outdoor</li>
-          <li className="active">Animal and pets</li>
-          <li className="active">Machinery tools</li>
-          <li className="active">More category</li>
+    <div className="shadow-lg max-md:flex-col flex justify-around">
+      <div className="">
+        <ul className="max-md:flex max-md:gap-5 max-md:scroll-mx-0 overflow-x-scroll">
+          <li className="my-2">Automobile</li>
+          <li className="py-1 hover:bg-gray-300 hover:">Clothes and wear</li>
+          <li className="py-1 hover:bg-gray-300 hover:">Home interiors</li>
+          <li className="py-1 hover:bg-gray-300 hover:">Computer and tech</li>
+          <li className="py-1 hover:bg-gray-300 hover:">Tools,equipments</li>
+          <li className="py-1 hover:bg-gray-300 hover:">Sports and outdoor</li>
+          <li className="py-1 hover:bg-gray-300 hover:">Animal and pets</li>
+          <li className="py-1 hover:bg-gray-300 hover:">Machinery tools</li>
+          <li className="py-1 hover:bg-gray-300 hover:">More category</li>
         </ul>
       </div>
-      <div className="w-[600px] m-auto">
+      <div className="py-2">
         <img src={img1} alt="" />
       </div>
-      <div className="side flex flex-col items-center gap-4">
-        <div className="bg-gray-300 p-8 rounded-lg">
+      <div className="py-2 max-md:flex md:justify-around small max-sm:justify-center max-md:items-center">
+        <div className="bg-gray-300 p-8 rounded-lg w-[200px] my-2">
           <span className="flex gap-4">
             <IoMdPeople className="text-[#fff] rounded-3xl text-[15px] bg-red-500 w-[30px] h-[20px]" />
             Hi,users lets get start
@@ -35,10 +35,10 @@ const Automobile = () => {
             <span>Login Now</span>
           </button> */}
         </div>
-        <div className="bg-yellow-200 p-5 rounded-lg">
+        <div className="bg-yellow-200 p-5 rounded-lg w-[200px] my-2">
           <p>Free photo showing cart trolley shopping online sign graphic</p>
         </div>
-        <div className="bg-blue-200 p-5 rounded-lg">
+        <div className="bg-blue-200 p-5 rounded-lg w-[200px] my-2">
           <p>Free photo showing cart trolley shopping online sign graphic</p>
         </div>
         {/* <div className="bg-blue-400">
@@ -56,6 +56,6 @@ const Automobile = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Automobile
+export default Automobile;

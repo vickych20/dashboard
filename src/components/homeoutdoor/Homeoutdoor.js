@@ -13,7 +13,7 @@ import img9 from '../Assets/p3.jpg'
 
 const Homeoutdoor = () => {
   return (
-    <div className="flex items-center mx-[5rem] py-4 shadow-lg pra">
+    <div className="flex items-center justify-center mx-[1rem] py-4 shadow-lg pra flex-wrap max-md:justify-center">
       <div className="home w-[270px] h-[260px]">
         <h1 className='font-bold px-8 py-4'>Home and Outdoor</h1>
         <button className='twxt-[#000] font-bold px-4 py-2 ml-8 rounded-lg border-[1px] border-gray-400 bg-[#fff]'>Source now</button>

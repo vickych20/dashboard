@@ -1,14 +1,14 @@
 import React from "react";
+import './suppliear.css';
 
 const Suppliear = () => {
   return (
-    <div>
+    <div className="">
       <div>
-        <h1 className="text-[27px] mx-[2rem]">Suppliers by region</h1>
+        <h1 className="text-[27px] mx-[2rem] hiii">Suppliers by region</h1>
       </div>
-      <div className="flex items-center justify-around">
-              <div>
-                  
+      <div className="min-xl:justify-center min-xxl:justify-center flex items-center justify-center flex-wrap max-lg:justify-around max-xl:justify-around">
+        <div>
           <div className="flex items-center gap-2">
             <div>
               <img
@@ -34,11 +34,9 @@ const Suppliear = () => {
               <p className="text-[13px]">Arabic Emirates</p>
               <p className="text-[10px]">shopname.en</p>
             </div>
-                  </div>
-              </div>
-              <div>
-                  
-             
+          </div>
+        </div>
+        <div>
           <div className="flex items-center gap-2">
             <div>
               <img
@@ -64,11 +62,9 @@ const Suppliear = () => {
               <p className="text-[13px]">Arabic Emirates</p>
               <p className="text-[10px]">shopname.en</p>
             </div>
-                  </div>
-              </div>
-              <div>
-                  
-              
+          </div>
+        </div>
+        <div>
           <div className="flex items-center gap-2">
             <div>
               <img
@@ -94,11 +90,9 @@ const Suppliear = () => {
               <p className="text-[13px]">Arabic Emirates</p>
               <p className="text-[10px]">shopname.en</p>
             </div>
-                  </div>
-              </div>
-              <div>
-                  
-              
+          </div>
+        </div>
+        <div>
           <div className="flex items-center gap-2">
             <div>
               <img
@@ -124,11 +118,9 @@ const Suppliear = () => {
               <p className="text-[13px]">Arabic Emirates</p>
               <p className="text-[10px]">shopname.en</p>
             </div>
-                  </div>
-              </div>
-              <div>
-                  
-            
+          </div>
+        </div>
+        <div>
           <div className="flex items-center gap-2">
             <div>
               <img
@@ -154,8 +146,7 @@ const Suppliear = () => {
               <p className="text-[13px]">Arabic Emirates</p>
               <p className="text-[10px]">shopname.en</p>
             </div>
-                  </div>
-                  
+          </div>
         </div>
       </div>
     </div>

@@ -25,8 +25,8 @@ const Home = () => {
       <Recomm />
       <Our />
       <Suppliear />
-      <Subscribe />
-      <Footer />
+      
+     
     </div>
   );
 };

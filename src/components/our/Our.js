@@ -6,7 +6,7 @@ import img3 from '../Assets/in1.jpg';
 
 const Our = () => {
   return (
-    <div className='flex justify-center items-center gap-4'>
+    <div className='flex justify-center items-center gap-4 flex-wrap'>
       <div className="w-[260px] shadow-lg mx-[2rem]">
         <img src={img1} alt="" />
         <span>

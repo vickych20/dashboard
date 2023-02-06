@@ -11,7 +11,7 @@ import img9 from "../Assets/pc5.jpg";
 
 const Consumer = () => {
   return (
-    <div className="flex items-center mx-[5rem] py-4 shadow-lg pra">
+    <div className="flex items-center justify-center mx-[5rem] py-4 shadow-lg pra">
       <div className="py-4 homee w-[270px] h-[280px]">
         <h1 className="font-bold px-8 py-4">Consumer electric and gadgets</h1>
         <button className="twxt-[#000] font-bold px-4 py-2 ml-8 rounded-lg border-[1px] border-gray-400 bg-[#fff]">

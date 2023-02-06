@@ -21,3 +21,13 @@
             line-height:2rem;
     
 }
+@media  only screen and (max-width:669px) {
+    .clases{
+        height: 50px;
+        width: 100px;
+    }
+    .cg{
+        border:none
+    }
+    
+}

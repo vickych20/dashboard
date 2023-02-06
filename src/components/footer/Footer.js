@@ -9,7 +9,7 @@ import './footer.css';
 
 function Footer() {
     return (
-      <div className="flex justify-evenly items-start bot mb-[30px]">
+      <div className="flex justify-center items-start bot mb-[30px] flex-wrap max-lg:justify-around max-xl:justify-around">
         <div className="flex flex-col">
           <div className="flex items-center gap-2">
             <TbBrandGooglePlay className="bg-[#0d99ff] text-[20px] text-[#fff] rounded-full h-[40px] w-[40px]" />
